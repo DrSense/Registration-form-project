@@ -1,0 +1,55 @@
+
+/* Main container styling */
+.main{
+    margin: 20%;
+    padding: 20px;
+    font-family: Arial;
+    box-shadow: none;
+    border: 1px solid  #9e6e6e;
+    border-radius: 10px;
+}
+
+/* Container background color and font */
+.container{
+    background-color: rgb(35, 39, 52);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Main heading styling */
+.main .title, .main h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#submit, .title{
+    color: aliceblue;
+}
+
+/* Input field styling */
+input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-bottom: 2px solid rgb(137, 119, 101);
+    border-radius: 10px;
+    /* outline: 0; */
+}
+
+/* Submit button styling */
+input[type=submit]{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 75%;
+    background-color: #290c29;
+    border:none;
+    color: rgb(113, 95, 95);
+    padding: 16px 32px;
+    margin: 15px 10px;
+    border-radius: 15px;
+}
+
+#submit:hover{
+    background-color: rgb(27, 27, 62);
+}
